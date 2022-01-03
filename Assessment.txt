@@ -1,0 +1,48 @@
+<html>
+    <head><title>Form Demo</title>
+        <style>
+        </style>
+    </head>
+    <body style="background-color:grey">
+        <h5><center>Use of background image and color</center></h5>
+        <form>
+            
+<label>firstname</label>
+<input type="text" name="ufirstname" id="firstname"><br>
+<label>lastname</label>
+<input type="text" name="ulastname" id="lastname"><br>
+<label>fathername</label>
+<input type="text" name="ufathername" id="fathername"><br>
+<label>mothername</label>
+<input type="text" name="umothername" id="mothername"><br>
+<caption>address proof</caption>
+<input type="checkbox" name="uid" id="acard">
+<label>adhar card</label>
+<input type="checkbox" name="uid" id="pcard">
+<label>pan card</label>
+<input type="checkbox" name="uid" id="dcard">
+<label>drivingcard</label>
+<label>user name</label><input type="text" name="name" id="uname"><br><br>
+<label>user age</label><input type="text" name="uage" id="age"><br><br>
+<input type="radio" name="gender" id="male">
+<label>male</label>
+<input type="radio" name="gender" id="female">
+<label>female</label><br><br>
+<label>user address</label><input type="text" name="uadd" id="add"><br><br>
+<label for="city"> city:</label>
+<select name="city" id="city">
+    <option value="m1"> delhi</option>
+    <option value="m2"> bangalore</option>
+    <option value="m3"> mumbai</option>
+    <option value="m4"> hyderbad</option>
+    <option value="m5"> pune</option>
+</select>
+<label>contact</label><input type="text" name="ucon" id="con"><br><br>
+<label>email</label><input type="text" name="umail" id="mail"><br><br>
+<label for="file"> upload: </label>
+<input type="file" name="upload" id="file"><br>
+<label>submit</label>
+<input type="submit"
+</form>
+</body>
+</html>
